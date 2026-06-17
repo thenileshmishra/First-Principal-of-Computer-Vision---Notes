@@ -143,16 +143,6 @@ Uses a curved mirror (parabolic or hyperbolic) combined with a lens
 Can achieve a full 360° horizontal FOV
 Used in surveillance and robotics
 
+# Image Sensing
+It is the process of capturing light from an object or scene and converting it into a digital image using a sensor (such as a camera sensor).
 
-The key trade-off: wider FOV → more distortion
-## Summary
-
-| Concept | Key Idea |
-|--------|----------|
-| Perspective projection | `x = f·X/Z`, objects shrink with depth |
-| Magnification | `m = f/Z` |
-| Vanishing point | Parallel lines meet at one point in image |
-| Thin lens | `1/f = 1/d_o + 1/d_i`, trades light for focus |
-| Depth of field | Aperture controls how much is in focus |
-| Lens distortion | Barrel, pincushion, chromatic aberration |
-| Wide angle | More FOV = more distortion |
