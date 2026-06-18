@@ -244,6 +244,3 @@ It is the process of capturing light from an object or scene and converting it i
 * Cones are responsible for color perception.
 * Visual information is processed and transmitted to the brain through the optic nerve.
 
-
-# Binary Image
-
