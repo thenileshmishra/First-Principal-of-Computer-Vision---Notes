@@ -146,3 +146,104 @@ Used in surveillance and robotics
 # Image Sensing
 It is the process of capturing light from an object or scene and converting it into a digital image using a sensor (such as a camera sensor).
 
+## 1. Types of Image Sensors
+
+### **Charge Coupled Device (CCD)**
+
+* Converts light into electrical charge and transfers it across the sensor for processing.
+* Produces high-quality images with low noise.
+* Consumes more power and is relatively expensive.
+* Commonly used in scientific, medical, and industrial imaging.
+
+### **Complementary Metal-Oxide Semiconductor (CMOS)**
+
+* Converts and processes signals directly at each pixel.
+* Faster, cheaper, and more power-efficient than CCD.
+* Widely used in smartphones, webcams, and digital cameras.
+* Modern CMOS sensors provide excellent image quality with low power consumption.
+
+# 2. Resolution, Noise, Dynamic Range
+
+### **Resolution**
+
+* Refers to the number of pixels in an image.
+* Higher resolution captures more details.
+* Common examples: 1920×1080 (Full HD), 3840×2160 (4K).
+* Important for image clarity and object recognition.
+
+### **Noise**
+
+* Unwanted modification of signal during capture, conversion, transmission, processing.
+* Often caused by low light conditions or sensor limitations.
+* Makes images appear grainy or distorted.
+* Noise reduction techniques are used to improve image quality.
+
+#### **Photon Shot Noise (Scene Dependent)**
+
+* Caused by the random arrival of photons at the sensor.
+* Increases with light intensity.
+* Fundamental noise that cannot be completely eliminated.
+* Photon Shot Noise is modeled using the Poisson distribution because photons arrive at a camera sensor randomly and independently.
+
+#### **Readout Noise (Scene Independent)**
+
+* Introduced during sensor readout and signal amplification.
+* Exists even when no light is present.
+* Depends on sensor electronics and circuitry quality.
+* Gaussian Distribution.
+
+#### **Other Sources (Scene Independent)**
+
+* Thermal (Dark Current) Noise due to sensor heating.
+* Quantization Noise introduced during analog-to-digital conversion.
+* Fixed Pattern Noise caused by pixel-to-pixel sensor variations.
+
+ 
+
+### **Dynamic Range**
+
+* The range between the darkest and brightest parts of an image.
+* Higher dynamic range preserves details in both shadows and highlights.
+* Important for scenes with strong lighting variations.
+* Often measured in stops (exposure levels).
+
+# 3. Sensing Color
+
+### **Quantum Efficiency (QE)**
+
+* Quantum Efficiency (QE) measures how effectively a sensor converts incoming photons into electrons.
+* QE varies with the wavelength of light.
+* Silicon sensors have high QE in the near-infrared region and lower QE at shorter wavelengths.
+* QE determines the sensitivity of an image sensor to different colors.
+
+### **Spectral Distribution**
+
+* Light reflected from an object contains a range of wavelengths called its spectral distribution.
+* Different objects have different spectral distributions.
+* A sensor measures the combined effect of all incoming wavelengths.
+* The complete spectral distribution cannot be recovered from a single sensor measurement.
+
+### **Color Filters**
+
+* Filters are placed in front of sensors to selectively measure specific wavelength ranges.
+* Different filters capture different portions of the spectrum.
+* Multiple filtered measurements provide color information.
+* Color sensing relies on combining information from several filters.
+
+### **Visible Spectrum**
+
+* Human vision is sensitive to wavelengths approximately between 400 nm and 700 nm.
+* Wavelengths below 400 nm are called ultraviolet (UV).
+* Wavelengths above 700 nm are called infrared (IR).
+* Cameras can be designed to capture UV and IR information beyond human vision.
+
+### **Human Visual Sensors**
+
+* The retina contains two types of photoreceptors: rods and cones.
+* Rods are responsible for brightness perception and low-light vision.
+* Cones are responsible for color perception.
+* Visual information is processed and transmitted to the brain through the optic nerve.
+
+
+# Binary Image
+
