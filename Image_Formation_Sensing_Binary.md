@@ -86,6 +86,16 @@ When this equation is satisfied, the object is **in focus**.
 
 Only objects at the focus distance are perfectly sharp. Objects closer or farther away become increasingly blurred.
 
+When a lens focuses on one specific distance, light rays from that distance converge perfectly into a point on the sensor → sharp.
+
+Light rays from any other distance don't converge perfectly — they spread into a small blurry disc instead of a point. This disc is called the circle of confusion.
+
+- Small disc —> still looks sharp yo your eye
+- Big disc —> looks blurry
+
+Depth of field is just: "how far can an object be from the focus point before its circule of confusion gets too big and noticeably blurry?"
+
+
 ### Hyperfocal Distance
 
 The **hyperfocal distance** is the focus distance that maximizes depth of field.
