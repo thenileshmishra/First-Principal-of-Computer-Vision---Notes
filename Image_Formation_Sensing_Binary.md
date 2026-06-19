@@ -162,7 +162,12 @@ It is the process of capturing light from an object or scene and converting it i
 * Widely used in smartphones, webcams, and digital cameras.
 * Modern CMOS sensors provide excellent image quality with low power consumption.
 
-# 2. Resolution, Noise, Dynamic Range
+### **Rolling Shutter vs Global Shutter**
+
+* **Rolling shutter** — the sensor reads out rows one after another rather than all at once. Common in CMOS sensors. Fast-moving objects or fast camera motion appear skewed or wobbly (rolling shutter distortion).
+* **Global shutter** — the entire frame is captured at the same instant. Common in CCD and high-end CMOS sensors. Avoids motion distortion but is more expensive.
+
+## 2. Resolution, Noise, Dynamic Range
 
 ### **Resolution**
 
@@ -207,7 +212,7 @@ It is the process of capturing light from an object or scene and converting it i
 * Important for scenes with strong lighting variations.
 * Often measured in stops (exposure levels).
 
-# 3. Sensing Color
+## 3. Sensing Color
 
 ### **Quantum Efficiency (QE)**
 
@@ -230,6 +235,13 @@ It is the process of capturing light from an object or scene and converting it i
 * Multiple filtered measurements provide color information.
 * Color sensing relies on combining information from several filters.
 
+### **Bayer Filter & Demosaicing**
+
+* The **Bayer filter** is the most common color filter array placed over a sensor — a mosaic of red, green, and blue filters, with twice as many green filters as red or blue (because human vision is most sensitive to green).
+* Each pixel therefore records only one color (R, G, or B).
+* **Demosaicing** is the process of interpolating the missing color values at each pixel to reconstruct a full-color image.
+* Poor demosaicing can introduce artifacts such as false colors and zipper/moiré patterns near edges.
+
 ### **Visible Spectrum**
 
 * Human vision is sensitive to wavelengths approximately between 400 nm and 700 nm.
@@ -242,5 +254,6 @@ It is the process of capturing light from an object or scene and converting it i
 * The retina contains two types of photoreceptors: rods and cones.
 * Rods are responsible for brightness perception and low-light vision.
 * Cones are responsible for color perception.
+* There are three types of cones — short (S/blue), medium (M/green), and long (L/red) wavelength — which is why human color vision is **trichromatic**. This is also why cameras use three color channels (RGB).
 * Visual information is processed and transmitted to the brain through the optic nerve.
 
