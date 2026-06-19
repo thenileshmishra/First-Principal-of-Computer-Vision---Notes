@@ -136,6 +136,7 @@ Different wavelengths of light (colors) bend by different amounts through a lens
 Straight lines in the scene appear curved in the image.
 
 Barrel distortion — lines bow outward (common in wide-angle lenses)
+
 Pincushion distortion — lines bow inward (common in telephoto lenses)
 
 ## 6. Wide Angle Cameras
